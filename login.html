@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆页面</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png ">  
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+</head>
+<body>
+    <div id="container">
+        <div class="logo">
+          <div class="img">
+            <a href="index.html">
+                <img alt="" src="img/reg_logo.png" width="90px" height="90px">
+            </a>
+          </div>     
+          <div class="text">
+            <span>Dinosaur mall</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <form id="form" method="post">
+             <div class="list">
+                 <ul>
+                    <li>
+                      <div class="icon"><img alt="" src="img/user_icon.png" width="60px" height="60px"></div>
+                      <div class="ip">
+                          <input type="text" id="num" name="num" style= "background-color:transparent;border:0;" placeholder="请输入账号">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon"><img alt="" src="img/pwd_icon.png" width="60px" height="60px"></div>
+                      <div class="ip">
+                          <input type="password" id="pwd" name="pwd" style= "background-color:transparent;border:0;" placeholder="请输入密码">
+                      </div>
+                    </li>        
+                    <li>
+                      <div class="mt-20 skin-minimal" style="text-align: center;">
+                         <div class="radio-box-1">
+                           <input type="radio" id="radio-2" name="type" value="1" />
+                            <label for="radio-1">普通用户</label>
+                         </div>
+                         <div class="radio-box-2">
+                           <input type="radio" id="radio-1" checked name="type" value="2" />
+                            <label for="radio-3">管理员</label>
+                         </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div id="button">
+                          <b>还没有账号？<a href="register.html">前往注册</a></b>
+                          <input type="button" id="submitBtn" value="登陆">
+                          <input type="reset" value="重置">
+                      </div>                  
+                    </li>
+                 </ul>
+             </div>
+        </form>  
+     </div>
+     <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+</body>
+</html>

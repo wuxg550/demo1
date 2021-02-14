@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.png ">  
+    <link rel="stylesheet" type="text/css" href="css/register.css"/>
+</head>
+<body>
+    <div id="container">
+        <div class="logo">
+          <div class="img">
+            <a href="index.html">
+                <img alt="" src="img/reg_logo.png" width="90px" height="90px">
+            </a>
+          </div>     
+          <div class="text">
+            <span>Dinosaur mall</span>
+          </div>
+          <div class="type">
+            <span>用户注册</span>
+          </div>
+        </div>
+        <div class="line"></div>
+        <form id="form" method="post">
+             <div class="list">
+                 <ul>
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/user_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9">
+                          <input type="text" id="unum" name="unum" style= "background-color:transparent;border:0;" placeholder="请输入账号">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/name_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9">
+                          <input type="text" id="uname" name="uname" style= "background-color:transparent;border:0;" placeholder="请输入用户名">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/pwd_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9">
+                          <input type="password" id="pwd" name="pwd" style= "background-color:transparent;border:0;" placeholder="请输入密码">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/repwd_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9">
+                          <input type="password" id="rpwd" name="rpwd" style= "background-color:transparent;border:0;" placeholder="请确认密码">
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/gender_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9" id="radio">
+                          <input type="radio" style= "background-color:transparent;border:0;" value="1" name="gender" checked="checked">男
+                          <input type="radio" style= "background-color:transparent;border:0;" value="0" name="gender">女
+                      </div>
+                    </li>
+                  
+                    <li>
+                      <div class="icon col-sm-3"><img alt="" src="img/tel_icon.png" width="60px" height="60px"></div>
+                      <div class="ip col-sm-9" id="telphone">
+                          <input type="text" id="tel" name="tel" style= "background-color:transparent;border:0;" placeholder="请输入联系方式">
+                      </div>
+                    </li>
+                    <li>
+                      <div id="button">
+                          <b>已有账号，前往<a href="login.html">登陆</a></b>
+                          <input type="button" id="submitBtn" value="注册">
+                          <input type="reset" value="重置">
+                      </div>                  
+                    </li>
+                 </ul>
+             </div>
+        </form>
+     </div>
+     <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+</body>
+</html>
